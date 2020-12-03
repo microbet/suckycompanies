@@ -84,7 +84,7 @@ class App extends Component {
         <Register DATA_URI={DATA_URI} switchForm={this.switchForm} /> }
         </div>
         <div>
-      The only company in the database is: { this.state.company.name }
+      The only company in the database for now is: { this.state.company.name }
         </div>
       </div>
     );
