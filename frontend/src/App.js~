@@ -1,0 +1,16 @@
+import React, { Component } from 'react';
+import MainPic from './components/MainPic';
+
+const DATA_URI = "http://127.0.0.1:5000";
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+	    <MainPic DATA_URI={DATA_URI} />
+      </div>
+    );
+  }
+}
+
+export default App;

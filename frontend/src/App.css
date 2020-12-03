@@ -1,0 +1,239 @@
+.Wide-format {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  background-color: #7e8aab;
+}
+
+.Pic-wide {
+  display: flex;
+  flex-direction: column;
+}
+
+.Pic-narrow {
+  display: flex;
+  flex-direction: row;
+}
+
+.App {
+  text-align: center;
+}
+
+.Narrow-format {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Wide-format button {
+  background-color: transparent;
+  color: #333333;
+  border: none;
+  text-decoration: underline;
+  font-size: 13px;
+  font-weight: bold;
+  font-style: italic;
+}
+.Narrow-format button {
+  background-color: transparent;
+  color: #333333;
+  border: none;
+  text-decoration: underline;
+  font-size: 13px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.Wrapper {
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  border-style: dotted;
+}
+
+.App-header {
+  justify-content: center;
+}
+
+.App button {
+  color: #333333;
+  border: none;
+  text-decoration: underline;
+  font-size: 13px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Small-form {
+  color: #333333;
+  display: flex;
+  font-size: 13px;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px auto;
+  width: 95%;
+  justify-content: center;
+}
+
+.Small-form input[type=text] {
+  width: 30%;
+  max-width: 200px;
+  min-width: 100px;
+  padding: 0px 3px;
+  margin: 4px 4px;
+  display: inline-block;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 13px;
+  color: #333333;
+}
+
+.Small-form input[type=password] {
+  width: 30%;
+  max-width: 200px;
+  min-width: 100px;
+  padding: 0px 3px;
+  margin: 4px 4px;
+  display: inline-block;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 13px;
+  color: #333333;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+
+.Small-form input[type=submit] {
+  border: none;
+  background-color: #999;
+  border-radius: 8px;
+  color: white;
+  padding: 1px 6px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.Text-button {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.Main-image {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  background-color: #7e8aab;
+}
+
+.Answer-box {
+  color: #333333;
+  display: flex;
+  font-weight: bold;
+  font-size: 18px;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px auto;
+  width: 95%;
+  justify-content: center;
+}
+
+.Answer-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+.The-Answer {
+  width: 46%;
+}
+
+.Up-Answer {
+  font-size: 12px;
+  width: 10%;
+}
+
+.Up-Answer2 {
+  width: 10%;
+}
+
+.Down-Answer {
+  font-size: 12px;
+  width: 10%;
+}
+
+.Down-Answer2 {
+  width: 10%;
+}
+
+.Answer-box1 {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.Answer-box input[type=text] {
+  width: 100%;
+  max-width: 500px;
+  min-width: 100px;
+  padding: 0px 3px;
+  margin: 4px 4px;
+  display: inline-block;
+  border: 4px solid #7e8aab;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 18px;
+  color: #333333;
+}
+
+.Answer-box input[type=submit] {
+  border: none;
+  background-color: #7e8aab;
+  border-radius: 8px;
+  color: white;
+  padding: 3px 8px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.Answer-box button {
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  font-size: 13px;
+  font-weight: bold;
+  font-style: italic;
+  width: 100%;
+}
+

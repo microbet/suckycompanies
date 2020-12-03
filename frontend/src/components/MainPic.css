@@ -1,0 +1,88 @@
+.modal {
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  width:90%;
+  height: 90%;
+  background: rgba(50, 50, 50, 0.7);
+
+}
+
+.modal-main {
+  position:fixed;
+  background: white;
+  width: 80%;
+  height: auto;
+  top:5%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  }
+
+.modal input[type=submit] {
+  background-color: #999999;
+  color: #ffffff;
+  border: none;
+  text-decoration: underline;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.modal input[type=file] {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.modal input[type=file] + label {
+  font-size: 1.25em;
+  font-weight: 700;
+  color: white;
+  background-color: #505050;
+  display: inline-block;
+}
+
+.modal input[type=file]:focus + label, 
+.modal input[type=file] + label:hover {
+  background-color: #ffffff;
+  color: #505050;
+}
+
+.display-block {
+  display: block;
+}
+
+.modal button {
+  position: absolute;
+  top: 95%;
+  left: 45%;
+  background-color: #505050;
+  color: white;
+  border: none;
+  text-decoration: underline;
+  width: 45px;
+  height: 25px;
+  font-size: 13px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.display-none {
+  display: none;
+}
+
+.mainPic {
+  height: 400px;
+  width: 400px;
+}
+
+.previewPic {
+    width: auto;
+    max-width: 150px;
+    height: auto;
+    max-height: 100px;
+}
+

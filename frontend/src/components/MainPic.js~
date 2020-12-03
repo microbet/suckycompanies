@@ -1,0 +1,37 @@
+import React, { Component } from 'react';
+import axios from 'axios';
+
+class MainPic extends Component {
+	constructor(){
+		super();
+		this.state = {
+			mainPicPath : 'why not',
+		}
+	}
+	
+	componentDidMount() {
+		let url = this.props.DATA_URI + '/getimage';
+		axios.get( this.props.DATA_URI + '/getimage')
+			.then(res => {
+				console.log(res.data);
+				console.log("is this the caption", res.data.caption);
+				console.log("is this the filename", res.data.imagePath);
+				this.setState( { mainPicPath : res.data.imagePath } );
+		})
+	}
+			
+	render() {
+		return(
+			<div>
+				hi from mainpic component
+				{ this.props.DATA_URI }
+				<br />
+				what
+				{ this.state.mainPicUrl }
+			   <img src={ this.props.DATA_URI + this.state.mainPicPath } /> 
+			</div>
+		);
+	}
+}
+
+export default MainPic
