@@ -29,6 +29,10 @@ class Company {
     this.companyId = companyId;
   }
 
+  setName(name) {
+    this.name = name;
+  }
+
 }
 
 export default Company 

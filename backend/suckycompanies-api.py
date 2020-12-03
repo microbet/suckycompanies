@@ -35,6 +35,17 @@ def allowed_file(filename):
     return '.' in filename and \
             filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
+@app.route('/add_company', methods=['POST'])
+def add_company():
+    print("hi")
+    conn = mariadb.connect(user='suckycompanies', password='bgesaw#4', 
+            database='suckycompanies')
+    cursor = conn.cursor()
+    cursor.execute("INSERT INTO company (company_id, name) \
+            VALUES (null, %s)", (request.form['name'],))
+    conn.commit()
+    conn.close()
+
 @app.route('/upload_image', methods=['POST'])
 def upload_image():
     conn = mariadb.connect(user='suckycompanies', password='bgesaw#4', 

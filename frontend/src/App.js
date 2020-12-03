@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import MainPic from './components/MainPic';
 import Login from './components/Login';
-import Answers from './components/Answers';
+import AddCompany from './components/AddCompany';
 import Register from './components/Register';
 import User from './User';
 import Company from './Company';
@@ -85,6 +85,7 @@ class App extends Component {
         </div>
         <div>
       The only company in the database for now is: { this.state.company.name }
+        <AddCompany DATA_URI={DATA_URI} />
         </div>
       </div>
     );
